@@ -54,7 +54,7 @@ public class HGUCoursePatternAnalyzer {
 	 * @return
 	 */
 	private Student[] initiateStudentArrayFromLines(String[] lines) {
-		
+		//여기는 ,와공백으로 이루어 진 부분을 활용하여 구분해서 수업과 학생 정보를 받는다.	
 		// TODO: implement this method
 		
 		
@@ -68,7 +68,7 @@ public class HGUCoursePatternAnalyzer {
 	 * @return boolean
 	 */
 	private boolean studentExist(Student[] students, Student student) {
-		
+		//같은 학생이 있는지 체크,
 		// TODO: implement this method
 
 		return false;
@@ -80,7 +80,7 @@ public class HGUCoursePatternAnalyzer {
 	 * @return
 	 */
 	private Course[] initiateCourseArrayFromLines(String[] lines) {
-		
+		//수업정보를 되돌려준다.(필드를 라인에서 수업 정보를 받아 초기화)
 		// TODO: implement this method
 		
 		return null;
@@ -93,7 +93,7 @@ public class HGUCoursePatternAnalyzer {
 	 * @return boolean
 	 */
 	private boolean courseExist(Course[] courses, Course course) {
-		
+		//같은 수업이 있는지 체크.
 		// TODO: implement this method
 
 		return false;
